@@ -19,6 +19,62 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/assets\/images\/blankmind-logo.png": {
+		"ft": 32768,
+		"iS": 66613,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blankmind-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/f1.jpg": {
+		"ft": 16384,
+		"iS": 3548912,
+		"oA": 0,
+		"oAP": "\/assets\/images\/f1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/f2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/f2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/m1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/m1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/m2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/m2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/m3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/m3.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/shopping-cart.png": {
+		"ft": 32768,
+		"iS": 72610,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shopping-cart.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/js\/functions-min.js": {
 		"ft": 64,
 		"mi": 1,
