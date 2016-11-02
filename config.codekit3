@@ -192,6 +192,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/build\/sass\/1-modules\/index-hero.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/sass\/css\/index-hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/build\/sass\/2-layouts\/dir-layouts.sass": {
 		"aP": 0,
 		"bl": 0,

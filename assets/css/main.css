@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Trirong:100,200,300,400,500,600,700,800,900");
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "Helvetica Neue", Arial, sans-serif; }
+  font-family: "Roboto", Arial, sans-serif; }
   body.toggle {
     position: fixed; }
 
@@ -54,3 +55,74 @@ a {
   min-width: 20em;
   margin: auto;
   display: block; }
+
+.hero-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 640px;
+  background-image: url("../images/m1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .hero-wrapper .hero-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: #5A29DE;
+    opacity: .2; }
+  .hero-wrapper h1 {
+    position: relative;
+    z-index: 5;
+    margin: 0;
+    color: #FFFFFF;
+    font-family: Trirong;
+    font-weight: 700;
+    font-size: 3.75em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 60px; }
+  .hero-wrapper .button-wrapper {
+    position: relative;
+    z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 40px; }
+    .hero-wrapper .button-wrapper a.cta-button {
+      color: white;
+      font-size: 1em;
+      letter-spacing: 1px;
+      text-align: center;
+      margin: 0 10px;
+      width: 145px;
+      padding: 12.5px 0;
+      border-radius: 3px; }
+    .hero-wrapper .button-wrapper .cta-shop {
+      background: #42DDA1;
+      border: 1px solid #42DDA1; }
+    .hero-wrapper .button-wrapper .cta-newsletter {
+      background: none;
+      border: 1px solid #42DDA1; }
