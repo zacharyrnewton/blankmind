@@ -9,19 +9,56 @@
 	],
 "creatorBuild": "25428",
 "files": {
+	"\/assets\/css\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/css\/main-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/js\/functions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/min\/functions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery-3.1.1.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/jquery-3.1.1.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/lightbox-1.0.0.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/lightbox-1.0.0.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/build\/jade\/index\/index.jade": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/build\/jade\/index\/index.html",
-		"oF": 0,
+		"oAP": "\/index.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/build\/javascript\/functions.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/output\/assets\/js\/functions-min.js",
+		"oAP": "\/assets\/js\/functions-min.js",
 		"oF": 2,
 		"sC": 1,
 		"tS": 0
@@ -112,37 +149,16 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/output\/assets\/css\/main.css",
+		"oAP": "\/assets\/css\/main.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/output\/assets\/js\/functions-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/output\/assets\/js\/min\/functions-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/output\/assets\/js\/jquery-3.1.1.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/output\/assets\/js\/min\/jquery-3.1.1.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/output\/assets\/js\/lightbox-1.0.0.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/output\/assets\/js\/min\/lightbox-1.0.0.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
 		}
 	},
 "hooks": [
