@@ -14,7 +14,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/css\/main-ck.css",
 		"oF": 0,
 		"oS": 0
@@ -45,6 +45,14 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/build\/jade\/index\/header.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/jade\/index\/header.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/build\/jade\/index\/index.jade": {
 		"cOD": 1,
@@ -156,7 +164,7 @@
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/index.html",
 		"oF": 0
 		}
