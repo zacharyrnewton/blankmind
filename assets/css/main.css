@@ -200,6 +200,9 @@ a {
       margin: 0 0 60px 0;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
       overflow: hidden; }
+      @media (max-width: 414px) {
+        .shopping-section-wrapper .shopping-wrapper .shopping-item {
+          width: 100%; } }
       .shopping-section-wrapper .shopping-wrapper .shopping-item .shopping-item-image {
         position: relative;
         height: 400px; }
@@ -304,13 +307,24 @@ a {
               width: auto; }
 
 .our-story-section-wrapper {
-  padding: 0px 20px 0px 20px; }
+  padding: 0px 20px 50px 20px; }
   .our-story-section-wrapper .our-story-wrapper {
     display: block;
     max-width: 800px;
-    margin: auto;
-    background: pink;
-    height: 300px; }
+    margin: auto; }
+    .our-story-section-wrapper .our-story-wrapper h1.our-story-header {
+      margin: 0;
+      font-family: Trirong;
+      font-size: 3.125em;
+      text-align: center;
+      font-weight: 600;
+      color: #262626; }
+    .our-story-section-wrapper .our-story-wrapper p.our-story-body {
+      font-size: 1em;
+      font-weight: 300;
+      color: #8E8A99;
+      letter-spacing: 1px;
+      line-height: 2em; }
 
 .nav-wrapper {
   position: absolute;
