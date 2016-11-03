@@ -126,6 +126,14 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/build\/jade\/index\/shop.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/jade\/index\/shop.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/build\/javascript\/functions.js": {
 		"ft": 64,
 		"mi": 1,
@@ -209,6 +217,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/sass\/css\/index-hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/build\/sass\/1-modules\/index-shop.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/sass\/css\/index-shop.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
