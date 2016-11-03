@@ -326,6 +326,21 @@ a {
       letter-spacing: 1px;
       line-height: 2em; }
 
+.newsletter-section-wrapper#newsletter {
+  background: #42DDA1;
+  padding: 50px 20px 100px 20px; }
+  .newsletter-section-wrapper#newsletter .newsletter-wrapper {
+    display: block;
+    max-width: 800px;
+    margin: auto; }
+    .newsletter-section-wrapper#newsletter .newsletter-wrapper h1.newsletter-header {
+      margin: 0;
+      font-family: Trirong;
+      font-size: 3.125em;
+      text-align: center;
+      font-weight: 600;
+      color: #FFFFFF; }
+
 .nav-wrapper {
   position: absolute;
   z-index: 100;
