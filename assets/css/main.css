@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Trirong:100,200,300,400,500,600,700,800,900");
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "Roboto", Arial, sans-serif; }
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 100%; }
   body.toggle {
     position: fixed; }
 
@@ -76,10 +80,18 @@ a {
   z-index: 1;
   width: 100%;
   height: 640px;
+  max-height: 100vh;
   background-image: url("../images/m1.jpg");
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding: 40px; }
+  @media (max-width: 415px) {
+    .hero-wrapper {
+      height: 590px; } }
+  @media (max-width: 374px) {
+    .hero-wrapper {
+      padding: 20px; } }
   .hero-wrapper .hero-overlay {
     position: absolute;
     top: 0;
@@ -99,7 +111,21 @@ a {
     font-size: 3.75em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding-top: 60px; }
+    padding-top: 60px;
+    text-align: center;
+    line-height: 1.5em; }
+    @media (max-width: 870px) {
+      .hero-wrapper h1 {
+        font-size: 3.125em; } }
+    @media (max-width: 440px) {
+      .hero-wrapper h1 {
+        font-size: 2.8em; } }
+    @media (max-width: 406px) {
+      .hero-wrapper h1 {
+        font-size: 2.5em; } }
+    @media (max-width: 374px) {
+      .hero-wrapper h1 {
+        font-size: 2.2em; } }
   .hero-wrapper .button-wrapper {
     position: relative;
     z-index: 5;
@@ -116,13 +142,38 @@ a {
       font-size: 1em;
       letter-spacing: 1px;
       text-align: center;
-      margin: 0 10px;
       width: 145px;
-      padding: 12.5px 0;
+      padding: 10px 0;
       border-radius: 3px; }
+      @media (max-width: 440px) {
+        .hero-wrapper .button-wrapper a.cta-button {
+          width: 135px; } }
     .hero-wrapper .button-wrapper .cta-shop {
       background: #42DDA1;
-      border: 1px solid #42DDA1; }
+      border: 1px solid #42DDA1;
+      margin-right: 10px; }
     .hero-wrapper .button-wrapper .cta-newsletter {
       background: none;
-      border: 1px solid #42DDA1; }
+      border: 1px solid #42DDA1;
+      margin-left: 10px; }
+
+.nav-wrapper {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 50px 0px 50px; }
+  @media (max-width: 450px) {
+    .nav-wrapper {
+      padding: 30px 30px 0px 30px; } }
+  .nav-wrapper .nav-logo, .nav-wrapper .nav-cart {
+    height: 40px;
+    width: auto; }

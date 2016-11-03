@@ -118,6 +118,14 @@
 		"oF": 2,
 		"oS": 0
 		},
+	"\/build\/jade\/index\/nav.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/jade\/index\/nav.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/build\/javascript\/functions.js": {
 		"ft": 64,
 		"mi": 1,
@@ -214,6 +222,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/sass\/css\/dir-layouts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/build\/sass\/2-layouts\/nav.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/sass\/css\/nav.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
