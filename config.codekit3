@@ -27,11 +27,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/f1-small.jpg": {
+		"ft": 16384,
+		"iS": 623640,
+		"oA": 0,
+		"oAP": "\/assets\/images\/f1-small.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/f1.jpg": {
 		"ft": 16384,
 		"iS": 3548912,
 		"oA": 0,
 		"oAP": "\/assets\/images\/f1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/f2-small.jpg": {
+		"ft": 16384,
+		"iS": 244312,
+		"oA": 0,
+		"oAP": "\/assets\/images\/f2-small.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -51,11 +67,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/m2-small.jpg": {
+		"ft": 16384,
+		"iS": 816525,
+		"oA": 0,
+		"oAP": "\/assets\/images\/m2-small.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/m2.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/m2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/m3-small.jpg": {
+		"ft": 16384,
+		"iS": 251441,
+		"oA": 0,
+		"oAP": "\/assets\/images\/m3-small.jpg",
 		"oF": 0,
 		"opt": 0
 		},

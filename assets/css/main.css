@@ -202,16 +202,16 @@ a {
         background: #DED729;
         opacity: 0.15; }
     .shopping-section-wrapper .shopping-item .item1, .shopping-section-wrapper .shopping-item .item2, .shopping-section-wrapper .shopping-item .item3, .shopping-section-wrapper .shopping-item .item4 {
-      background-image: url("../images/m2.jpg");
+      background-image: url("../images/m2-small.jpg");
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
     .shopping-section-wrapper .shopping-item .item2 {
-      background-image: url("../images/m3.jpg"); }
+      background-image: url("../images/m3-small.jpg"); }
     .shopping-section-wrapper .shopping-item .item3 {
-      background-image: url("../images/f1.jpg"); }
+      background-image: url("../images/f1-small.jpg"); }
     .shopping-section-wrapper .shopping-item .item4 {
-      background-image: url("../images/f2.jpg"); }
+      background-image: url("../images/f2-small.jpg"); }
     .shopping-section-wrapper .shopping-item .shopping-item-information {
       position: relative;
       display: -webkit-box;
