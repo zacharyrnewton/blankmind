@@ -61,6 +61,8 @@ a {
   display: block; }
 
 .hero-wrapper {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,7 +90,7 @@ a {
   padding: 40px; }
   @media (min-width: 1280px) {
     .hero-wrapper {
-      height: 50vw; } }
+      height: 45vw; } }
   @media (max-width: 415px) {
     .hero-wrapper {
       height: 590px; } }
@@ -105,6 +107,8 @@ a {
     background: #5A29DE;
     opacity: .2; }
   .hero-wrapper h1 {
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
     position: relative;
     z-index: 5;
     margin: 0;
