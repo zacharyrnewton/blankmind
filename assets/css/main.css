@@ -241,7 +241,7 @@ a {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        margin-left: 10px; }
+        margin: 0 10px; }
         .shopping-section-wrapper .shopping-item .shopping-item-information .shopping-item-information-text-wrapper h4 {
           margin: 0;
           padding: 0;
