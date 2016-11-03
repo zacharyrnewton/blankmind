@@ -86,6 +86,9 @@ a {
   background-position: center center;
   background-repeat: no-repeat;
   padding: 40px; }
+  @media (min-width: 1280px) {
+    .hero-wrapper {
+      height: 50vw; } }
   @media (max-width: 415px) {
     .hero-wrapper {
       height: 590px; } }
@@ -265,8 +268,9 @@ a {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
-          -ms-flex-pack: distribute;
-              justify-content: space-around;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
           -webkit-box-align: center;
               -ms-flex-align: center;
                   align-items: center;
@@ -276,11 +280,12 @@ a {
           border-radius: 2px;
           background: #5A29DE; }
           .shopping-section-wrapper .shopping-item .shopping-item-information .shopping-item-information-purchase-wrapper a.shopping-item-purchase small {
-            margin: 0;
+            margin: 5px;
             padding: 0;
             color: #FFFFFF;
             font-size: .5em; }
           .shopping-section-wrapper .shopping-item .shopping-item-information .shopping-item-information-purchase-wrapper a.shopping-item-purchase svg.shopping-item-cart {
+            margin: 5px;
             height: 14px;
             width: auto; }
 
