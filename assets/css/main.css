@@ -339,6 +339,13 @@ a {
       font-size: 3.125em;
       text-align: center;
       font-weight: 600;
+      color: #FFFFFF;
+      line-height: 1em; }
+    .newsletter-section-wrapper#newsletter .newsletter-wrapper p.newsletter-sub-header {
+      margin: 0;
+      font-size: 1em;
+      text-align: center;
+      font-weight: 300;
       color: #FFFFFF; }
 
 .nav-wrapper {
