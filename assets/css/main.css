@@ -402,6 +402,7 @@ a {
         border-radius: 0; }
       .newsletter-section-wrapper#newsletter .newsletter-wrapper form.newsletter-container button.submit-newsletter-request {
         width: 157px;
+        margin: 0;
         background: #5A29DE;
         color: white;
         font-size: 1em;
