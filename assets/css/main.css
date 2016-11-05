@@ -361,6 +361,7 @@ a {
       .newsletter-section-wrapper#newsletter .newsletter-wrapper form.newsletter-container input.newsletter-input {
         height: 40px;
         padding: 10px;
+        margin: 0;
         -webkit-box-flex: 2;
             -ms-flex-positive: 2;
                 flex-grow: 2;
