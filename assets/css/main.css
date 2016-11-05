@@ -368,6 +368,8 @@ a {
         border: 1px solid #5A29DE;
         font-size: 1em;
         box-shadow: none;
+        outline: none;
+        -webkit-appearance: none;
         color: #5A29DE; }
       .newsletter-section-wrapper#newsletter .newsletter-wrapper form.newsletter-container input.newsletter-input::-webkit-input-placeholder {
         color: #42DDA1;
