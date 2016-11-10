@@ -409,7 +409,8 @@ a {
         color: white;
         font-size: 1em;
         font-weight: 300;
-        border: none; }
+        border: none;
+        cursor: pointer; }
 
 .footer-container {
   background: #42DDA1;
@@ -425,12 +426,18 @@ a {
           align-items: center;
   padding: 20px; }
   .footer-container .dev-signature-container a.dev-signature {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     margin: 0;
     font-size: 0.75em;
     font-weight: 300;
     color: #FFFFFF; }
     .footer-container .dev-signature-container a.dev-signature span {
-      font-weight: 500; }
+      font-weight: 500;
+      -webkit-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in; }
+      .footer-container .dev-signature-container a.dev-signature span:hover {
+        opacity: 0.75; }
   .footer-container .social-media-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -450,7 +457,11 @@ a {
       overflow: hidden;
       width: auto;
       margin: 5px;
-      padding: 0; }
+      padding: 0;
+      -webkit-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in; }
+      .footer-container .social-media-container a.social-link:hover {
+        opacity: 0.75; }
       .footer-container .social-media-container a.social-link img.social-icon {
         margin: 0;
         height: 100%;
