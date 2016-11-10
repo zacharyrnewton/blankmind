@@ -59,6 +59,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/facebook.png": {
+		"ft": 32768,
+		"iS": 5703,
+		"oA": 0,
+		"oAP": "\/assets\/images\/facebook.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/instagram.png": {
+		"ft": 32768,
+		"iS": 7005,
+		"oA": 0,
+		"oAP": "\/assets\/images\/instagram.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/m1.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -99,11 +115,27 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/assets\/images\/pinterest.png": {
+		"ft": 32768,
+		"iS": 9328,
+		"oA": 0,
+		"oAP": "\/assets\/images\/pinterest.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/shopping-cart.png": {
 		"ft": 32768,
 		"iS": 72610,
 		"oA": 0,
 		"oAP": "\/assets\/images\/shopping-cart.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/twitter.png": {
+		"ft": 32768,
+		"iS": 6035,
+		"oA": 0,
+		"oAP": "\/assets\/images\/twitter.png",
 		"oF": 0,
 		"opt": 0
 		},
