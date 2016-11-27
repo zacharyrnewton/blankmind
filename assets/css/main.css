@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Trirong:100,200,300,400,500,600,700,800,900");
+.drop-cap::first-letter {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #42DDA1;
+  font-family: Trirong;
+  float: left; }
+
 * {
   box-sizing: border-box; }
 
