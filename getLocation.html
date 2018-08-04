@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geo Test</title>
+  </head>
+  <body>
+    <script>
+      var options = {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 0
+      };
+      function success(pos){
+        var crd = pos.coords;
+        var txtElem = document.createElement("h3");
+        var response = document.createTextNode('Your longitude is ' + crd.longitude + ' and your latitude is ' + crd.latitude + '.');
+        txtElem.appendChild(response);
+        var element = document.querySelector("body");
+        element.appendChild(txtElem);
+      };
+      function error(err){
+        console.warn(`ERROR(${err.code}): ${err.message}`);
+        alert("Sorry, we couldn't get your location for some reason");
+      }
+    </script>
+
+    <button onclick="navigator.geolocation.getCurrentPosition(success, error, options);">Get Your Location</button>
+  </body>
+</html>
